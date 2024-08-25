@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Página Desafio - Primeiros passos com HTML </title> 
+</head>
+<body>
+    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr/>
+    <h2 id="inicio">Índice</h2>
+    <p>Os <strong>tópicos</strong> aprendidos nesse Módulo inicial, podem ser observados facilmente na lista abaixo:</p>
+    <ul>
+        <li><a href="#historia">História dos Computadores;</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers?</a></i></li>
+        <li><a href="#estrutura-basica">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listaOrdenadaeNaoOrdenada">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#referencias">Lista de Referências</a></li>
+    </ul>
+
+    <h2 id="historia">História dos computadores</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>A história dos computadores começou com dispositivos mecânicos simples, como o <strong>ábaco</strong>, e evoluiu para máquinas mais complexas ao longo dos séculos.<br/>
+        <img width="400" src="https://qph.cf2.quoracdn.net/main-qimg-709b63062349bd8b76e2dcede53bfac7-lq"/><br/>
+        No século XIX, <strong><u>Charles Babbage</u><sup>*</sup></strong> projetou o primeiro computador mecânico, a <strong>"Máquina Analítica"</strong>, que nunca foi totalmente construída.<br/>
+        <img width="400" src="https://www.ufrgs.br/amlef/wp-content/uploads/2021/12/cropped-pngegg-1.png"/><br/> 
+        No século XX, surgiram os primeiros computadores eletrônicos, como o <strong>ENIAC</strong>, usado na <i><u>Segunda Guerra Mundial</u></i>.<br/>
+        <img width="400" src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/26776_1798DEE935286D54.jpg?w=1024"/><br/>
+        Com o avanço da tecnologia, os computadores passaram de grandes máquinas para dispositivos pessoais e portáteis, transformando a sociedade e a forma como trabalhamos, comunicamos e acessamos informações.</p>
+    
+    <p>A história dos computadores é marcada por uma evolução significativa que começou com dispositivos mecânicos e culminou na era digital.<br/>
+        No século XVII, <strong><u>Blaise Pascal</u><sup>*</sup></strong> criou a primeira calculadora mecânica, a <strong>"Pascaline"</strong>, e no século XIX, Charles Babbage projetou a "Máquina Analítica", considerada o primeiro conceito de um computador programável.<br/>
+        <img width="400" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Arts_et_Metiers_Pascaline_dsc03869.jpg/1200px-Arts_et_Metiers_Pascaline_dsc03869.jpg"/><br/>
+        <strong><u>Ada Lovelace</u><sup>*</sup></strong>, trabalhando com Babbage, escreveu o primeiro algoritmo destinado a ser executado por essa máquina, tornando-se a primeira programadora da história.</p> 
+
+    <p>No século XX, durante a Segunda Guerra Mundial, o desenvolvimento de computadores eletrônicos acelerou. O <strong>ENIAC</strong>, desenvolvido em 1945, foi um dos primeiros computadores eletrônicos de uso geral. <br/>
+        Com o tempo, os transistores substituíram as válvulas a vácuo, tornando os computadores mais rápidos e menores.<br/>
+        A partir da década de 1970, a <u>invenção dos microprocessadores</u> possibilitou a criação de computadores pessoais, como o <strong>Altair 8800</strong> e, posteriormente, o <strong>Apple II</strong> e o <strong><abbr title="IBM Personal Computer">IBM PC</abbr></strong>.</p>
+        <img width="400" src="https://files.meiobit.com/wp-content/uploads/2021/01/1280px-Altair_8800_Smithsonian_Museum.jpg"/><br/><mark>Altair 8800</mark><br/>
+        <img width="400" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Apple_II-IMG_7064.jpg"/><br/><mark>Apple II</mark><br/>
+        <img width="400" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Ibm_px_xt_color.jpg"/><br/><mark>IBM PC</mark><br/>
+    <p>Hoje, os computadores estão presentes em quase todos os aspectos da vida moderna, desde dispositivos móveis até supercomputadores que realizam cálculos complexos.<br/>
+        A evolução contínua da computação, com o avanço da inteligência artificial, computação quântica e a internet das coisas, continua a moldar o futuro da tecnologia. </p>
+    </p>
+
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>Clients são dispositivos ou programas que solicitam e utilizam serviços ou recursos de um servidor em uma rede.<br/>
+        Em um modelo <strong>cliente-servidor</strong>, o <strong><i>client (cliente)</i></strong> é a parte que inicia a comunicação, pedindo dados, arquivos ou outras informações, <br/>
+        enquanto o servidor processa essas solicitações e envia as respostas apropriadas. Exemplos de clients incluem navegadores de internet, que solicitam páginas web, e aplicativos de e-mail, que acessam servidores para enviar e receber mensagens.<br/>
+        Clients podem ser dispositivos físicos, como computadores ou smartphones, ou software, como aplicativos.</p><br/>
+        <img width="400" src="https://teachcomputerscience.com/wp-content/uploads/2020/11/Client-Server-Architecture-1.png"/><br/>
+
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>Servers são sistemas ou programas que fornecem serviços, dados ou recursos a outros dispositivos ou programas, conhecidos como <strong><i>clients</i></strong>, em uma rede.<br/>
+        Eles respondem às solicitações dos clients, processando-as e enviando as informações ou serviços necessários de volta. <br/>
+        Um <strong>server</strong> pode <strong><i>gerenciar</i></strong> e <strong><i>distribuir arquivos</i></strong>, <strong>hospedar sites, executar aplicativos, gerenciar e-mails, ou realizar outras funções essenciais em uma rede.</strong><br/>
+        Existem diferentes tipos de servers, como web servers, que hospedam sites, e database servers, que gerenciam bancos de dados. <br/>
+        Servers podem ser máquinas físicas dedicadas ou instâncias de software que operam em ambientes virtuais.</p><br/>
+        <img width="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEQUMzqJ9NKVXSjqgRbKzJGtq3r6g78vUcF9ZDFNr1IfvFKcaMCRLt9fzvKHPK95tJ0L7m36mZeXaZRRyqjLh6GRkU8YojUMXEf8tfBcJhAfYIa180uSZvvLVopTiQfuJqZyGq2M33L1d2/s1600/cliente-servidor-arquitetura.png"/><br>
+
+
+    <h2 id="estrutura-basica">Como é uma estrutura básica de um HTML?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>Uma estrutura básica de um documento HTML é composta por várias tags que definem a estrutura e o conteúdo da página. Aqui está um exemplo simples:</p><br/>
+    <img width="400" src="https://blog.betrybe.com/wp-content/uploads/2022/11/image-53.png"/><br/>
+    <p><strong>Explicação das principais partes:</strong></p>
+    <p> <strong>!DOCTYPE html:</strong> Declaração do tipo de documento, indicando que o documento é HTML5.<br/>
+        <strong>html:</strong> lang="pt-BR">: A tag "html" encapsula todo o conteúdo da página. O atributo lang especifica o idioma da página.<br/>
+        <strong>head:</strong> Contém metadados, como o conjunto de caracteres (meta charset="UTF-8"), viewport para design responsivo, título da página (title), e links para CSS ou outros recursos.<br/>
+        <strong>body:</strong> Contém todo o conteúdo visível da página, como textos, imagens, links e outros elementos.<br/>
+        <strong>header:</strong> Geralmente usado para o cabeçalho da página.
+        <strong>main:</strong> Principal área de conteúdo.<br/>
+        <strong>footer:</strong> Contém o rodapé da página.<br/>
+        Essa estrutura é a base para criar páginas web em HTML.</p>
+
+    <h2 id="listaOrdenadaeNaoOrdenada">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>Em HTML, listas ordenadas e não ordenadas são usadas para organizar conteúdo em formato de lista, mas diferem na maneira como apresentam os itens.
+        <ul> 
+            <li><h4><strong><u>Lista ordenada (ol):</u></strong></h4></li>
+            <p><strong>Definição:</strong> Uma lista ordenada apresenta os itens em uma sequência numérica ou alfabética.<br/>
+                <strong>Uso:</strong> É usada quando a ordem dos itens é importante, como em instruções passo a passo, classificações, ou qualquer conteúdo onde a sequência importa.
+            </p>
+            <li><h4><strong><u>Lista não ordenada (ul):</u></strong></strong></h4></li>
+            <p><strong>Definição:</strong> Uma lista não ordenada apresenta os itens com marcadores (geralmente pontos), sem indicação de uma sequência específica.<br/>
+                <strong>Uso:</strong> É usada quando a ordem dos itens não é relevante, como em listas de características, ingredientes, ou tópicos variados.</p>
+        </ul>
+        <img width="400" src="https://cristianomaiablog.wordpress.com/wp-content/uploads/2016/01/listan.jpg?w=605"/><br/>
+    </p>
+
+    <h2 id="referencias">Lista de Referências</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>Alguns links úteis, explicando mais sobre o conteúdo acima:
+        <ul>
+            <li><a href="https://www.w3schools.com/" title="Clique aqui e confira" target="_blank">Referências HTML;</a></li>
+            <li><a href="https://pt.quora.com/Como-foi-a-evolu%C3%A7%C3%A3o-cronol%C3%B3gica-dos-computadores" title="Clique aqui e confira" target="_blank">Evolução Cronológica dos Computadores;</a></li>
+            <li><a href="https://www.ufrgs.br/amlef/glossario/maquina-analitica-de-babbage/" title="Clique aqui e confira" target="_blank">Máquina Analítica de Babbage;</a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/IBM_PC" title="Clique aqui e confira" target="_blank">História do IBM PC;</a></li>
+            <li><a href="https://www.cnnbrasil.com.br/tecnologia/do-eniac-ao-notebook-confira-a-evolucao-dos-computadores-nas-ultimas-decadas/" title="Clique aqui e confira" target="_blank">Do ENIAC ao notebook: confira a evolução dos computadores nas últimas décadas;</a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/Pascalina" title="Clique aqui e confira" target="_blank">Pascalina;</a></li>
+            <li><a href="https://meiobit.com/433555/altair-8800-45-anos-do-computador-que-deu-inicio-a-revolucao-digital/" title="Clique aqui e confira" target="_blank">Altair 8800: 45 anos do computador que deu início à Revolução Digital;</a></li>
+            <li><a href="https://teachcomputerscience.com/client-server-architecture/" title="Clique aqui e confira" target="_blank">Client-Server Architecture;</a></li>
+            <li><a href="https://www.programacaoprogressiva.net/2019/02/Arquiteturas-de-Aplicacao-em-Redes-Cliente-Servidor-P2P.html#google_vignette" title="Clique aqui e confira" target="_blank">Arquiteturas de Aplicação em Redes: Cliente-Servidor e P2P;</a></li>
+            <li><a href="https://blog.betrybe.com/html/input-html/estrutura-html-pronta-estrutura-basica-de-uma-pagina-html/" title="Clique aqui e confira" target="_blank">Estrutura básica de uma página HTML!;</a></li>
+            <li><a href="https://cristianomaiablog.wordpress.com/2016/01/13/40/" title="Clique aqui e confira" target="_blank">Criação de listas não ordenadas e ordenadas.</a></li>
+        </ul>
+    </p>
+    <h2>Sobre o autor:</h2>
+    <p><strong><i>MENDES, Ranieri da Silva</i><sub>1</sub></strong>, é um influente autor e criador de conteúdos em blogs focados em programação e tecnologia.<br/>
+        Com uma vasta experiência na área, MENDES é reconhecido por sua habilidade em desmistificar conceitos complexos e torná-los acessíveis a desenvolvedores de todos os níveis.<br/>
+        Seus artigos abordam desde as mais recentes tendências tecnológicas até tutoriais práticos sobre linguagens de programação, frameworks, e boas práticas no desenvolvimento de software.<br/>
+        Sua capacidade de comunicar ideias de forma clara e envolvente faz de MENDES uma referência respeitada na comunidade tech.
+    </p>
+    <blockquote><i>A arte de aprender é viver as suas escolhas e aprender com elas, mesmo que sejam erros para no futuro usa-las como lição, para não cometeres os mesmos erros no futuro.</i></blockquote>
+    <blockquote><i>Michael Gallbraith</i></blockquote>
+    <p>Publicado em: <del>24/08/2024</del>(Ops) <ins>25/08/2024</ins></p>
+
+
+</body>
+</html>
